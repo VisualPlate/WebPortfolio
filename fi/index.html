@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jere Tolonen</title>
+    <link rel="stylesheet" href="../content/style/style.css">
+</head>
+<body>
+    <main>
+        <nav class="screen-nav">
+            <a href="#landing" class="nav-link"><img src="../content/media/house32.png" alt="" class="inverted-icon"></a>
+            <a href="#info" class="nav-link"><img src="../content/media/user32.png" alt="" class="inverted-icon"></a>
+            <a href="#projects" class="nav-link"><img src="../content/media/projects32.png" alt="" class="inverted-icon"></a>
+            <a href="#contact" class="nav-link"><img src="../content/media/contact32.png" alt="" class="inverted-icon"></a>
+            <a href="https://github.com/VisualPlate" target="_blank" class="nav-link"><img src="../content/media/github32.png" alt="" class="inverted-icon"></a>
+        </nav>
+        <div class="hero-bg" id="landing">
+            <div class="hero-header-content">
+                <div class="hero-left">
+                    <div>
+                        <div class="line coffee"></div>
+                        <h1 class="hero-header">Jere <span class="coffee">Tolonen</span></h1>
+                        <p class="hero-paragraph">Ohjelmistokehittäjä / aktiivinen valokuvaaja sekä 3D-mallintaja</p>
+                        <div class="row">
+                            <a href="#info" class="link link-main">Tietoja</a>
+                            <a href="#contact" class="link link-secondary">Yhteystiedot</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <img src="../content/media/m_portrait.png" alt="" class="hero-img">
+                </div>
+            </div>
+        </div>
+        <div class="secondary-container max-1900" id="info">
+            <div class="container-sizing">
+                <div class="grid-divider">
+                    <div>
+                        <div class="line coffee-light"></div>
+                        <h2 class="container-type">
+                            Tietoja
+                        </h2>
+                        <h1 class="header-highlight">Olen 17 vuotias ohjelmistokehittäjä-opiskelija Kuopiosta</h1>
+                        <p class="info-paragraph">Opiskelen Savon ammattiopistossa ohjelmistokehittäjäksi, jossa valmistun vuonna 2027. Ohjelmoin pääsääntöisesti C#:lla, Lua:lla sekä Php:lla.</p>
+                        <p class="info-paragraph">Vapaa-ajallani olen aktiivinen valokuvaamaan sekä suunnittelen omiin sovelluksiini ja peleihin käyttöliittymiä. Olen myös hyvä 3D-mallinnuksessa Blender-sovelluksessa, johon on kertynyt muutama tuhat tuntia</p>
+                    </div>
+                    <div class="divider-half-centered">
+                        <div>
+                            <h1 class="header-highlight">10+</h1>
+                            <h3 class="coffee-text">Valmistunutta projektia</h3>
+                        </div>
+                        <div>
+                            <h1 class="header-highlight">3+</h1>
+                            <h3 class="coffee-text">Vuotta kokemusta</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-container max-1900" id="projects">
+            <div class="container-sizing">
+                <div class="line coffee"></div>
+                <h2 class="container-type">
+                    Projektit
+                </h2>
+                <div class="row project-row">
+                    <div class="project-card">
+                        <img src="../content/media/vcarlogo.jpg" alt="Kuva" class="project-img">
+                        <div class="project-text-container">
+                            <h1 class="header-highlight">V-car</h1>
+                            <p>Julkaisematon auto-peli, jossa on realistiset grafiikat, sekä ainutlaatuiset ohjaukset ja fysiikat</p>
+                        </div>
+                        <button onclick="showProject1()" class="btn-project-info">Lisätiedot</button>
+                    </div>
+                    <div class="project-card">
+                        <img src="../content/media/showcaseimg3.jpg" alt="Kuva" class="project-img">
+                        <div class="project-text-container">
+                            <h1 class="header-highlight">Webportfolio</h1>
+                            <p>Juuri tämä sivu jota katsot!</p>
+                        </div>
+                        <button onclick="showProject2()" class="btn-project-info">Lisätiedot</button>
+                    </div>
+                    <div class="project-card">
+                        <img src="../content/media/bulkUnzipper.jpg" alt="Kuva" class="project-img">
+                        <div class="project-text-container">
+                            <h1 class="header-highlight">Bulk-unzipper</h1>
+                            <p>Sovellus, jonka avulla monia .zip kansioita pystyy purkamaan kerralla</p>
+                        </div>
+                        <button onclick="showProject3()" class="btn-project-info">Lisätiedot</button>
+                    </div>
+                    <div class="project-card">
+                        <img src="../content/media/weatherApi.png" alt="Kuva" class="project-img">
+                        <div class="project-text-container">
+                            <h1 class="header-highlight">Weather API</h1>
+                            <p>Webbi sivu, joka etsii sään tiedoit met.no:n Sää Api:lla</p>
+                        </div>
+                        <button onclick="showProject4()" class="btn-project-info">Lisätiedot</button>
+                    </div>
+                </div>
+                <br>
+                <div class="project-imgs">
+                    <div class="line coffee-light"></div>
+                    <h2 class="container-type">
+                        Näyttökuvia projekteista
+                    </h2>
+                    <div class="showcase">
+                        <img src="../content/media/showcaseimg1.jpg" alt="">
+                        <img src="../content/media/showcaseimg2.jpg" alt="">
+                        <img src="../content/media/showcaseimg3.jpg" alt="">
+                        <img src="../content/media/showcaseimg4.jpg" alt="">
+                        <img src="../content/media/showcaseimg5.jpg" alt="">
+                        <img src="../content/media/showcaseimg6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondary-container contact-container max-1900" id="contact">
+            <div class="container-sizing">
+                <div class="grid-divider">
+                    <div>
+                        <div class="line coffee-light"></div>
+                        <h2 class="container-type">
+                            Yhteystiedot
+                        </h2>
+                        <h1 class="header-highlight">Ota Yhteyttä</h1>
+                        <p class="info-paragraph">Voit ottaa yhteyttä minuun alla olevilla linkeillä ja tiedoilla</p>
+                        <div>
+                            <a href="tel:+358401687440" class="no-underline"><h4 class="coffee-text">(+358)40 168 7440</h4></a>
+                        </div>
+                        <div>
+                            <a href="mailto:tolonenjere0@gmail.com" class="no-underline"><h4 class="coffee-text">tolonenjere0@gmail.com</h4></a>
+                        </div>
+                        <p class="info-paragraph">Olen vapaana tekemään projekteja</p>
+                        <p class="info-paragraph">Vastaan yleensä muutaman päivän sisällä</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="text-align-center">
+            <h1>Pääsit loppuun</h1>
+            <a href="#landing" class="coffee-text" style="font-size: 1.4rem;">Palaa takaisin</a>
+        </div>
+        <div class="row space-evenly max-1900">
+            <div class="row">
+                <a href="https://github.com/VisualPlate" target="_blank"><img src="../content/media/github32.png" alt="" class="inverted-icon"></a>
+            </div>
+            <div>
+                <h4>Sivun tietoa</h4>
+                <p>Sivun värit saivat inspiraation kahvista ja betoniseinästä</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--Hidden content that will be only shown when specific button is pressed. Cannot be createn dynamically :( -->
+
+
+
+
+    <div class="darker-bg" id="projectInspect1">
+        <div class="project-inspect">
+            <button onclick="hideProject1()" class="project-hide-link">X</button>
+            <div class="project-inspect-align">
+                <div class="project-inspect-img-div1">
+                    <img src="../content/media/vcarlogo.jpg" alt="Kuva" class="project-img-inspect">
+                </div>
+                <div class="project-inspect-margin">
+                    <h1 class="header-highlight">V-car</h1>
+                    <p class="scroll-text">Julkaisematon auto-peli, jossa on realistiset grafiikat, sekä ainutlaatuiset ohjaukset ja fysiikat. Pelissä on otettu huomioon myös käyttöliittymät hyvin suunnitellusti. Pelissä tulisi olla monia lisäominaisuuksia nykyisen version lisäksi. Pelin idea tuli muutamia vuosia sitten muutamien muiden pelien inspiroimana, mutta aloitin sen valmistamisen noin vuosi sitten. Pelin tuotanto on hiljentynyt viimeisen muutaman kuukauden aikana ajan puutteen ja muiden projektien takia. Peliä ei ole saatavilla julkisesti vielä. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="darker-bg" id="projectInspect2">
+        <div class="project-inspect">
+            <button onclick="hideProject2()" class="project-hide-link">X</button>
+            <div class="project-inspect-align">
+                <div class="project-inspect-img-div2">
+                    <img src="../content/media/showcaseimg3.jpg" alt="Kuva" class="project-img-inspect">
+                </div>
+                <div class="project-inspect-margin">
+                    <h1 class="header-highlight">Webportfolio</h1>
+                    <p class="scroll-text">Projektini, jota katsot juuri nyt!. Webportfolioni on esitelmä omista tiedoistani, johon olen kasannut tärkeimmät tiedot, yhdelle sivulle.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="darker-bg" id="projectInspect3">
+        <div class="project-inspect">
+            <button onclick="hideProject3()" class="project-hide-link">X</button>
+            <div class="project-inspect-align">
+                <div class="project-inspect-img-div3">
+                    <img src="../content/media/bulkUnzipper.jpg" alt="Kuva" class="project-img-inspect">
+                </div>
+                <div class="project-inspect-margin">
+                    <h1 class="header-highlight">Bulk-unzipper</h1>
+                    <p class="scroll-text">Projekti, jolla voi purkaa monia pakattuja .zip tiedostoja kerralla. Kehitin sovelluksen, koska Windowsin omassa resurssien hallinnassa ei ole kyseistä ominaisuutta. Sovellus on helppokäyttöinen, sekä se on ladattavissa ilmaisesti Github profiililtani</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="darker-bg" id="projectInspect4">
+        <div class="project-inspect">
+            <button onclick="hideProject4()" class="project-hide-link">X</button>
+            <div class="project-inspect-align">
+                <div class="project-inspect-img-div4">
+                    <img src="../content/media/weatherApi.png" alt="Kuva" class="project-img-inspect">
+                </div>
+                <div class="project-inspect-margin">
+                    <h1 class="header-highlight">Weather API</h1>
+                    <p class="scroll-text">Php pohjainen webbi sää API, jossa on helppokäyttöinen käyttöliittymä. Projekti on saatavilla Github profiilistani</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const obj1 = document.getElementById("projectInspect1");
+    const obj2 = document.getElementById("projectInspect2");
+    const obj3 = document.getElementById("projectInspect3");
+    const obj4 = document.getElementById("projectInspect4");
+    
+    function addBlur() {
+        document.querySelector("main").style.filter = "blur(20px)";
+        document.querySelector("footer").style.filter = "blur(20px)";
+    }
+    function removeBlur() {
+        document.querySelector("main").style.filter = "none";
+        document.querySelector("footer").style.filter = "none";
+    }
+
+    function hideProject1() {
+      obj1.style.display = "none";
+      removeBlur();
+    }
+
+    function showProject1() {
+      obj1.style.display = "block";
+      addBlur();
+    }
+
+    function hideProject2() {
+      obj2.style.display = "none";
+      removeBlur();
+    }
+
+    function showProject2() {
+      obj2.style.display = "block";
+      addBlur();
+    }
+
+    function hideProject3() {
+      obj3.style.display = "none";
+      removeBlur();
+    }
+
+    function showProject3() {
+      obj3.style.display = "block";
+      addBlur();
+    }
+    
+    function hideProject4() {
+      obj4.style.display = "none";
+      removeBlur();
+    }
+
+    function showProject4() {
+      obj4.style.display = "block";
+      addBlur();
+    }
+  </script>
+</body>
+</html>

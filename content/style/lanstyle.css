@@ -1,0 +1,94 @@
+:root {
+  /*Base Colors*/
+  --color-background: #26272c;
+  --color-background-secondary: #3c3f49;
+  --color-surface: #404040;
+  --color-surface-transparent: #40404082;
+  --color-accent: #575759;
+  --color-coffee: #aa856e;
+  --color-coffee-light: #caa188;
+  --color-red: #ca2819;
+  
+  /*Text*/
+  --color-text-primary: #F2F2F2;
+  --color-text-secondary: #a2a2a2;
+  --color-text-link: #dadada;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-background-secondary);
+    color: var(--color-text-secondary);
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.nav-link {
+    color: var(--color-text-link);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-block: 5px;
+    padding-inline: 20px;
+    border-bottom: transparent solid 2px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    transition: all 0.2s linear;
+    color: var(--color-text-primary);
+    background: linear-gradient(to top, var(--color-accent), #ffffff00);
+    border-bottom: var(--color-coffee) solid 2px;
+}
+.hero-bg {
+    background: linear-gradient(to bottom, var(--color-background), var(--color-background-secondary));
+    background-size: 50vw;
+    height: 85vh;
+}
+.hero-header {
+    font-size: 8vw;
+    color: var(--color-text-primary);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero-paragraph {
+    color: var(--color-text-secondary);
+    font-size: 2vw;
+}
+.hero-header-content {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.screen-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 96vw;
+    padding-inline: 2vw;
+    margin-top: 5px;
+    top: 0;
+    color: var(--color-text-link);
+    z-index: 100;
+}
+.inverted-icon {
+    filter: invert(80%);
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.line {
+    height: 0.5vh;
+    width: 20%;
+    margin-top: 1vh;
+}
+.coffee {
+    background-color: var(--color-coffee);
+}
