@@ -405,6 +405,9 @@ footer {
     .project-card {
         min-width: 300px;
     }
+    .mob-hidden {
+        display: none;
+    }
 }
 #projectInspect1 {
     display: none;
